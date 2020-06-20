@@ -1,27 +1,29 @@
 <template>
   <div id="app">
-    <home-page />
+    <side-bar></side-bar>
+    <transition name="fade" mode="out-in">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
+import SideBar from "./components/SideBar/SideBar";
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    SideBar
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+
+  #app {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    height: 100vh;
+  }
 </style>

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import App from './App';
 import VueRouter from 'vue-router';
-import HomePage from "./components/HomePage";
+import HomePage from "./components/Home/HomePage";
 
 Vue.use(VueRouter);
 Vue.config.productionTip = false;
