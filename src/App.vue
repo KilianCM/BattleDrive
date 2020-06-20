@@ -22,7 +22,6 @@ export default {
 
   #app {
     display: flex;
-    align-items: center;
     justify-content: stretch;
     height: 100vh;
   }

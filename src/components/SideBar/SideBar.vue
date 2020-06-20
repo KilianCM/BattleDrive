@@ -1,40 +1,22 @@
 <template>
     <div class="side-bar">
-        <div class="logo">
+        <router-link :to="{ name: 'home'}" class="logo">
             <img src="../../assets/logo.png" alt="Logo BattleDrive Competition">
             <div></div>
             <div></div>
             <div></div>
-        </div>
-        <div class="menu">
-            <ul>
-                <li>
-                    <router-link to="/">
-                        Qui sommes-nous ?
-                    </router-link>
-                </li>
-                <li>
-                    <router-link to="/">
-                        Notre objectif
-                    </router-link>
-                </li>
-                <li>
-                    <router-link to="/">
-                        Nos partenaires
-                    </router-link>
-                </li>
-            </ul>
-        </div>
-        <footer>
-            <img src="../../assets/helmet.svg" alt="">
-            <p>&copy; 2020 - Kilian Chamiot-Maitral</p>
-        </footer>
+        </router-link>
+        <link-list></link-list>
+        <footer-bar></footer-bar>
     </div>
 </template>
 
 <script>
+    import LinkList from "./LinkList";
+    import FooterBar from "./FooterBar";
     export default {
-        name: "SideBar"
+        name: "SideBar",
+        components: {FooterBar, LinkList}
     }
 </script>
 
@@ -51,6 +33,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        z-index: 100;
 
         .logo {
             display: flex;
@@ -71,26 +54,6 @@
                 height: auto;
             }
         }
-
-        .menu {
-            ul li {
-                margin-top: 40px;
-                font-size: 1.2em;
-            }
-        }
-
-        footer {
-            text-align: center;
-            font-size: 0.8em;
-            padding: 5px;
-
-            img {
-                width: 25px;
-                height: 25px;
-                margin-bottom: 5px;
-            }
-        }
-
     }
 
 </style>
