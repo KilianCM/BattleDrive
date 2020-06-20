@@ -1,5 +1,5 @@
 <template>
-    <div class="partners-page">
+    <div class="partners page">
         <banner title="Nos partenaires"></banner>
     </div>
 </template>
@@ -14,7 +14,7 @@
 </script>
 
 <style scoped lang="scss">
-    .partners-page {
-        width: 100%;
+    .partners {
+
     }
 </style>

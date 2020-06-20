@@ -1,5 +1,5 @@
 <template>
-    <div class="goal-page">
+    <div class="goal page">
         <banner title="Notre objectif"></banner>
     </div>
 </template>
@@ -14,7 +14,7 @@
 </script>
 
 <style scoped lang="scss">
-    .goal-page {
-        width: 100%;
+    .goal {
+
     }
 </style>

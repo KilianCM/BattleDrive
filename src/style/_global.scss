@@ -24,3 +24,16 @@ a {
 .fade-enter, .fade-leave-to {
     opacity: 0
 }
+
+.page {
+    width: 100%;
+
+    .content {
+        margin-top: 50px;
+        padding: 30px;
+    }
+}
+
+bold {
+    font-weight: bold;
+}
