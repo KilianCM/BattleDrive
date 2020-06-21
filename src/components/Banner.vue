@@ -59,4 +59,11 @@
     .custom-shape-divider-top-1592657532 .shape-fill {
         fill: $primary-color;
     }
+
+    @media(max-width: 1005px) {
+        h1 {
+            font-size: 3em;
+            margin-right: 20px;
+        }
+    }
 </style>

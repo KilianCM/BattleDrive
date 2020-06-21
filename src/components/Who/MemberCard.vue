@@ -25,6 +25,8 @@
         padding: 10px;
         border-top-left-radius: 10px;
         width: 200px;
+        margin-top: 20px;
+        margin-right: 10px;
 
         h3 {
             margin-bottom: 5px;

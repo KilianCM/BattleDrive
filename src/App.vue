@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <side-bar></side-bar>
-    <transition name="fade" mode="out-in">
-      <router-view/>
-    </transition>
+    <div class="content-router">
+      <transition name="fade" mode="out-in">
+        <router-view/>
+      </transition>
+    </div>
   </div>
 </template>
 
@@ -24,5 +26,12 @@ export default {
     display: flex;
     justify-content: stretch;
     height: 100vh;
+
+    .content-router {
+      margin-left: 250px;
+      width: calc(100vw - 250px);
+    }
   }
+
+
 </style>

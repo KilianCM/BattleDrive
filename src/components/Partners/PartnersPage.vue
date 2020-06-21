@@ -1,6 +1,9 @@
 <template>
     <div class="partners page">
         <banner title="Nos partenaires"></banner>
+        <div class="content">
+
+        </div>
     </div>
 </template>
 

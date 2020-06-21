@@ -23,11 +23,10 @@
 <style scoped lang="scss">
 
     .side-bar {
-        position: relative;
+        position: fixed;
         background-color: $background-color;
         box-shadow: 10px -1px 25px -18px rgba(0,0,0,0.86);
-        width: 300px;
-        min-width: 250px;
+        width: 250px;
         height: 100%;
         display: flex;
         flex-direction: column;
