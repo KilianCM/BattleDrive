@@ -22,6 +22,11 @@
                 (ça reste une course quand même !)</p>
             <h3>Temps restant avant le rêve</h3>
             <Countdown deadline="October 10, 2020"></Countdown>
+            <h3>Et après ?</h3>
+            <p>Pourquoi pas continuer sur cette lancée pour participer au rallye du Beaufortain l'année prochaine pour continuer
+            à progresser sur des routes techniques, en espérant toujours avoir le soutien de
+                <router-link :to="{name: 'partners'} ">nos partenaires</router-link>.
+            </p>
         </div>
     </div>
 </template>
@@ -38,10 +43,6 @@
 
 <style scoped lang="scss">
     .goal {
-        p {
-            margin-top: 10px;
-        }
-
         .images {
             display: flex;
             justify-content: space-between;
@@ -51,7 +52,7 @@
                 width: 350px;
                 height: 250px;
                 object-fit: cover;
-                box-shadow: 0 3px 9px rgba(0, 0, 0, 0.12);
+                box-shadow: $box-shadow;
                 border-radius: 5px;
                 margin: 20px 2px;
             }

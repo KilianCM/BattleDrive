@@ -29,7 +29,8 @@
         margin-right: 10px;
 
         h3 {
-            margin-bottom: 5px;
+            margin-bottom: 5px !important;
+            margin-top: 5px !important;
         }
     }
 

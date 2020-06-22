@@ -6,10 +6,10 @@
             Composée de 4 personnes, l'association va nous permettre de réaliser notre rêve.</p>
             <h3>L'équipe</h3>
             <div class="members-list">
-                <member-card v-for="member in members" v-bind:key="member.id" :member="member"></member-card>
+                <member-card v-for="member in members" :key="member.id" :member="member"></member-card>
             </div>
             <h3>Nous contacter</h3>
-            <p><span>@</span> <a href="mailto:chamiot.k@gmail.com">chamiot.k@gmail.com</a></p>
+            <p><span>@</span> <a href="mailto:chamiot.k@gmail.com?subject=BattleDrive Competition">chamiot.k@gmail.com</a></p>
             <p :style="{ marginTop: '10px'}">607 route de la forêt 73270 Villard sur Doron</p>
             <h3>Infos légales</h3>
             <p>Association déclarée à la sous-préfécture d'Albertville le 10 décembre 2019
