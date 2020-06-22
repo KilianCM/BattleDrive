@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <side-bar></side-bar>
-    <div class="content-router">
+    <side-bar v-on:toggle-menu="menuOpened = $event"></side-bar>
+    <div :class="{ 'content-router': true, 'reduced': !menuOpened }">
       <transition name="fade" mode="out-in">
         <router-view/>
       </transition>
@@ -16,6 +16,11 @@ export default {
   name: 'App',
   components: {
     SideBar
+  },
+  data() {
+    return {
+      menuOpened: true
+    }
   }
 }
 </script>
@@ -28,8 +33,15 @@ export default {
     height: 100vh;
 
     .content-router {
-      margin-left: 250px;
-      width: calc(100vw - 250px);
+      margin-left: $width-menu;
+      width: calc(100vw - #{$width-menu});
+      transition: all ease-in-out 0.7s;
+      z-index: 20;
+
+      &.reduced {
+        margin-left: $width-menu-reduced;
+        width: calc(100vw - #{$width-menu-reduced});
+      }
     }
   }
 

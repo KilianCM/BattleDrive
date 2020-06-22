@@ -6,6 +6,7 @@ module.exports = {
                     @import "@/style/_variables.scss";
                     @import "@/style/_font.scss";
                     @import "@/style/_global.scss";
+                    @import "@/style/_animations.scss";
                 `
             }
         }

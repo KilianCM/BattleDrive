@@ -17,14 +17,6 @@ a {
     }
 }
 
-.fade-enter-active, .fade-leave-active {
-    transition: opacity .5s;
-    z-index: 0;
-}
-.fade-enter, .fade-leave-to {
-    opacity: 0
-}
-
 .page {
     width: 100%;
 

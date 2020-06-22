@@ -1,0 +1,26 @@
+
+// Name = fade
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+    z-index: 0;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0
+}
+// ----
+
+// Name = quick-fade
+.quick-fade-enter-active {
+    transition: opacity .9s;
+    z-index: 0;
+}
+
+.quick-fade-leave-active {
+    transition: opacity .1s;
+    z-index: 0;
+}
+
+.quick-fade-enter, .quick-fade-leave-to {
+    opacity: 0
+}
+// ---
