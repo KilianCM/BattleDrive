@@ -2,8 +2,8 @@
     <div class="partners">
         <h3>Soutenu par</h3>
         <div class="list">
-            <a href="https://www.domusgi.fr/"><img src="../../assets/Domus-logo.png" alt="Domus"></a>
-            <a href="https://www.pagesjaunes.fr/pros/56152266"><img src="../../assets/YannickTP-logo.png" alt="YannickTP"></a>
+            <a href="https://www.domusgi.fr/" target="_blank"><img src="../../assets/Domus-logo.png" alt="Domus"></a>
+            <a href="https://www.pagesjaunes.fr/pros/56152266" target="_blank"><img src="../../assets/YannickTP-logo.png" alt="YannickTP"></a>
         </div>
     </div>
 </template>

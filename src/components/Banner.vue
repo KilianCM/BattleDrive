@@ -67,7 +67,14 @@
         }
     }
 
-    @media(max-width: 800px) {
+    @media(max-width: 920px) {
+        h1 {
+            font-size: 2.5em;
+            margin-right: 20px;
+        }
+    }
+
+    @media(max-width: 840px) {
         h1 {
             text-align: left;
             margin-top: 240px;

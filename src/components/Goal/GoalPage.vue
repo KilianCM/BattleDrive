@@ -10,7 +10,7 @@
                 malheureusement annulé à cause de la crise du coronavirus. Nous allons donc réaliser notre rêve au rallye des
                 Bauges, en octobre 2020, sur les routes de mon copilote.
             </p>
-            <p>Nous aurons la chance de participer avec une <a href="https://www.r2slocation.fr/location/">Renault Clio Ragnotti N3
+            <p>Nous aurons la chance de participer avec une <a target="_blank" href="https://www.r2slocation.fr/location/">Renault Clio Ragnotti N3
                 de R2S Location</a> grâce à <router-link :to="{ name: 'partners'}">nos partenaires</router-link>.</p>
             <div class="images">
                 <img src="../../assets/n3.jpg" alt="Clio Ragnotti N3">

@@ -1,5 +1,5 @@
 <template>
-    <a :href="partner.link" class="partner-link">
+    <a :href="partner.link" class="partner-link" target="_blank">
         <img :src="require('../../assets/' + partner.image + '')" :alt="partner.name">
     </a>
 

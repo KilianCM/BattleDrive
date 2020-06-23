@@ -13,7 +13,7 @@
             <p :style="{ marginTop: '10px'}">607 route de la forêt 73270 Villard sur Doron</p>
             <h3>Infos légales</h3>
             <p>Association déclarée à la sous-préfécture d'Albertville le 10 décembre 2019
-                (<a href="https://www.journal-officiel.gouv.fr/document/associations_b/201900501440">voir la publication au journal officiel</a>).
+                (<a target="_blank" href="https://www.journal-officiel.gouv.fr/document/associations_b/201900501440">voir la publication au journal officiel</a>).
                 <br>Numéro R.N.A : <span class="bold">W731006202</span>.
             </p>
         </div>
