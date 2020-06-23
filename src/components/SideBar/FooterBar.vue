@@ -1,7 +1,7 @@
 <template>
     <footer>
         <img src="../../assets/helmet.svg" alt="">
-        <p>&copy; 2020 - Kilian Chamiot-Maitral</p>
+        <p>&copy; 2020 - <a href="www.kiliancm.fr">Kilian Chamiot-Maitral</a></p>
     </footer>
 </template>
 
@@ -22,6 +22,10 @@
             width: 25px;
             height: 25px;
             margin-bottom: 5px;
+        }
+
+        a {
+            color: black;
         }
     }
 </style>

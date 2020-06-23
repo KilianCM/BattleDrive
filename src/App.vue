@@ -45,5 +45,12 @@ export default {
     }
   }
 
+  @media(max-width: 800px) {
+    #app .content-router, #app .content-router.reduced {
+      margin-left: $width-menu-reduced;
+      width: calc(100vw - #{$width-menu-reduced});
+    }
+  }
+
 
 </style>

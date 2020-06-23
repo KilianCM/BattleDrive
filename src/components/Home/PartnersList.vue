@@ -36,5 +36,25 @@
         }
     }
 
+    @media(max-width: 450px) {
+        .partners {
+            .list {
+                a img {
+                    width: 140px;
+                }
+            }
+        }
+    }
+
+    @media(max-width: 450px) {
+        .partners {
+            .list {
+                a img {
+                    width: 110px;
+                }
+            }
+        }
+    }
+
 
 </style>

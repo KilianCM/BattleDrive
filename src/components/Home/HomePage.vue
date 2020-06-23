@@ -28,9 +28,25 @@
 
         .partners-list {
             position: absolute;
+            height: fit-content;
             top: 0;
             right: 0;
         }
     }
 
+    @media(max-width: 850px) {
+        .partners-list {
+            top:unset !important;
+            bottom: 0;
+        }
+    }
+
+</style>
+
+<style>
+    @media(max-width: 850px) {
+        .partners-list .partners h3{
+            color: white
+        }
+    }
 </style>

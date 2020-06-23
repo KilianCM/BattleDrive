@@ -1,10 +1,10 @@
 <template>
-    <span class="arrows" @click="onClick">
+    <div class="arrows" @click="onClick">
         <a :class="{ 'arrow': true, 'open': open }" v-for="index in 3" :key="index">
             <div class="arrow-top"></div>
             <div class="arrow-bottom"></div>
         </a>
-    </span>
+    </div>
 </template>
 
 <script>
@@ -43,7 +43,7 @@
             div {
                 background-color: transparent;
                 width: 6px;
-                height: 10%;
+                height: 70px;
                 position: absolute;
                 border-radius: 10px;
                 box-shadow: 10px -1px 25px -18px rgba(0,0,0,0.86);
@@ -80,6 +80,24 @@
                 .arrow-bottom:after {
                     transform-origin: center center;
                     transform: rotate(-50deg);
+                }
+            }
+        }
+    }
+
+    @media(max-width: 400px) {
+        .arrows {
+            .arrow {
+                div {
+                    height: 35px;
+                }
+
+                .arrow-top {
+                    top: 44px;
+                }
+
+                .arrow-bottom {
+                    top: 73px;
                 }
             }
         }

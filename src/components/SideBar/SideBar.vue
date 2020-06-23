@@ -1,13 +1,12 @@
 <template>
     <div :class="{ 'side-bar': true, 'closed': !open }">
         <div class="logo">
-            <router-link :to="{ name: 'home'}">
+            <router-link :to="{ name: 'home'}" >
                 <img src="../../assets/logo.png" alt="Logo BattleDrive Competition">
             </router-link>
             <arrows :open="open" v-on:click="toggleMenu"></arrows>
         </div>
-
-        <transition name="quick-fade" >
+        <transition name="quick-fade">
             <link-list v-if="open"></link-list>
         </transition>
         <transition name="quick-fade">
@@ -54,11 +53,16 @@
 
         &.closed {
             width: $width-menu-reduced;
+
+            .logo {
+                margin-left: 300px;
+            }
         }
 
         .logo {
             display: flex;
             margin: 30px 0 0 200px;
+            transition: all ease-in-out 0.5s;
 
             img {
                 width: 300px;
@@ -67,6 +71,15 @@
                 margin-right: 5px;
                 height: auto;
                 border-radius: 10px;
+            }
+        }
+    }
+
+    @media(max-width: 400px) {
+        .side-bar .logo {
+            margin-left: 150px;
+            img {
+                width: 200px;
             }
         }
     }

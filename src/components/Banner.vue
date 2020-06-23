@@ -66,4 +66,15 @@
             margin-right: 20px;
         }
     }
+
+    @media(max-width: 800px) {
+        h1 {
+            text-align: left;
+            margin-top: 240px;
+            margin-left: 30px;
+            margin-bottom: -80px;
+            color: $primary-color;
+            line-height: 50px;
+        }
+    }
 </style>
