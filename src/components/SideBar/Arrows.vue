@@ -4,21 +4,21 @@
             <div class="arrow-top"></div>
             <div class="arrow-bottom"></div>
         </a>
+        <span :class="{ 'menu-label': true, 'transparent': open}">MENU</span>
     </div>
 </template>
 
 <script>
     export default {
         name: "Arrows",
-        data() {
-            return {
-                open: true
+        props: {
+            open: {
+                type: Boolean
             }
         },
         methods: {
             onClick() {
-                this.open = !this.open;
-                this.$emit('click', this.open);
+                this.$emit('toggle');
             }
         }
     }
@@ -35,6 +35,20 @@
 
         &:hover {
             cursor: pointer;
+        }
+
+        .menu-label {
+            transform-origin: 0 0;
+            transform: rotate(65deg);
+            margin-left: 15px;
+            margin-top: 5px;
+            color: white;
+            position: relative;
+            transition: color ease-in-out 0.3s;
+
+            &.transparent {
+                color: transparent;
+            }
         }
 
         .arrow {

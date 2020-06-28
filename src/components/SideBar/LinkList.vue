@@ -2,17 +2,17 @@
     <div class="menu">
         <ul>
             <li>
-                <router-link :to="{ name: 'us'}">
+                <router-link @click.native="emitClick" :to="{ name: 'us'}">
                     Qui sommes-nous ?
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'goal'}">
+                <router-link @click.native="emitClick" :to="{ name: 'goal'}">
                     Notre objectif
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'partners'}">
+                <router-link @click.native="emitClick" :to="{ name: 'partners'}">
                     Nos partenaires
                 </router-link>
             </li>
@@ -22,7 +22,15 @@
 
 <script>
     export default {
-        name: "Menu"
+        name: "Menu",
+        methods: {
+            emitClick() {
+                //TODO: find a way to load sass variable for window width
+                if(window.innerWidth <= 1310) {
+                    this.$emit('click');
+                }
+            }
+        }
     }
 </script>
 

@@ -45,7 +45,7 @@ export default {
     }
   }
 
-  @media(max-width: $content-max-width + 300px) {
+  @media(max-width: $mobile-mode) {
     #app .content-router, #app .content-router.reduced {
       margin-left: $width-menu-reduced;
       width: calc(100vw - #{$width-menu-reduced});

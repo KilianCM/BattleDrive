@@ -4,10 +4,10 @@
             <router-link :to="{ name: 'home'}" >
                 <img src="../../assets/logo.png" alt="Logo BattleDrive Competition">
             </router-link>
-            <arrows :open="open" v-on:click="toggleMenu"></arrows>
+            <arrows :open.sync="open" v-on:toggle="toggleMenu"></arrows>
         </div>
         <transition name="quick-fade">
-            <link-list v-if="open"></link-list>
+            <link-list v-on:click="onLinkClick" v-if="open"></link-list>
         </transition>
         <transition name="quick-fade">
             <footer-bar v-if="open"></footer-bar>
@@ -28,9 +28,12 @@
             }
         },
         methods: {
-            toggleMenu(open) {
-                this.open = open;
-                this.$emit('toggle-menu', open);
+            toggleMenu() {
+                this.open = !this.open;
+                this.$emit('toggle-menu', this.open);
+            },
+            onLinkClick() {
+                this.toggleMenu();
             }
         }
     }
@@ -55,7 +58,7 @@
             width: $width-menu-reduced;
 
             .logo {
-                margin-left: 300px;
+                margin-left: 360px;
             }
         }
 
