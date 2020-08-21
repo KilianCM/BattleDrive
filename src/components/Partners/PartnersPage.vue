@@ -17,7 +17,7 @@
                 réduction d'impôts selon l’article 39-7 du code général des impôts. Cet article prévoit que les dons aux
                 associations sportives sont <span class="bold">déductibles des impôts</span> à auteur de 60% de la somme engagée.</p>
             <p>Il n'y a pas de petits dons, tous les gestes sont appréciés et remerciés chaleureusement. Vous pouvez nous contacter
-            pour en discuter <a href="mailto:chamiot.k@gmail.com?subject=BattleDrive Competition">par mail</a>.</p>
+            pour en discuter <a href="mailto:contact@battledrive.fr">par mail</a>.</p>
         </div>
     </div>
 </template>
