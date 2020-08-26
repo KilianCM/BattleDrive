@@ -11,17 +11,17 @@ Vue.use(VueRouter);
 Vue.config.productionTip = false;
 
 const routes = [
-  { path: '/', component: HomePage, name: 'home' },
-  { path: '/qui-sommes-nous', component: WhoPage, name: 'us' },
-  { path: '/notre-objectif', component: GoalPage, name: 'goal' },
-  { path: '/nos-partenaires', component: PartnersPage, name: 'partners' }
-  ];
+    { path: '/', component: HomePage, name: 'home' },
+    { path: '/qui-sommes-nous', component: WhoPage, name: 'us' },
+    { path: '/notre-objectif', component: GoalPage, name: 'goal' },
+    { path: '/nos-partenaires', component: PartnersPage, name: 'partners' }];
 
 const router = new VueRouter({
-  routes
+  mode: 'history',
+  routes: routes
 });
 
 new Vue({
   router,
   render: h => h(App),
-}).$mount('#app')
+}).$mount('#app');
