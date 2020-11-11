@@ -118,6 +118,7 @@
                 box-shadow: $box-shadow;
                 border-radius: $image-border-radius;
                 width: 350px;
+                max-height: 280px;
                 object-fit: cover;
             }
         }
