@@ -23,7 +23,11 @@ a {
     .content {
         padding: 30px;
         max-width: $content-max-width;
-        margin: 50px auto 10px auto;
+        margin: 10px auto;
+
+        & > *:first-child {
+            margin-top: unset;
+        }
 
         h3 {
             color: $primary-color;
@@ -38,4 +42,9 @@ a {
 
 .bold {
     font-weight: bold;
+}
+
+h5 {
+    color: $grey;
+    font-weight: lighter;
 }

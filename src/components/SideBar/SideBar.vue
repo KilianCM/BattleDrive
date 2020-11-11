@@ -64,8 +64,11 @@
 
         .logo {
             display: flex;
-            margin: 30px 0 0 200px;
+            margin: 30px 0 0 180px;
             transition: all ease-in-out 0.5s;
+            background: $background-color;
+            border-radius: 10px;
+            box-shadow: $box-shadow;
 
             img {
                 width: 300px;
@@ -73,7 +76,6 @@
                 padding: 10px;
                 margin-right: 5px;
                 height: auto;
-                border-radius: 10px;
             }
         }
     }

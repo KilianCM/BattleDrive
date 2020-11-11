@@ -41,8 +41,8 @@
             transform-origin: 0 0;
             transform: rotate(65deg);
             margin-left: 15px;
-            margin-top: 5px;
-            color: white;
+            margin-top: 20px;
+            color: $primary-color;
             position: relative;
             transition: color ease-in-out 0.3s;
 
@@ -57,14 +57,14 @@
             div {
                 background-color: transparent;
                 width: 6px;
-                height: 70px;
+                height: 50px;
                 position: absolute;
                 border-radius: 10px;
                 box-shadow: 10px -1px 25px -18px rgba(0,0,0,0.86);
 
                 &::after {
                     content:"";
-                    background-color: $background-color;
+                    background-color: $primary-color;
                     width: 6px;
                     height: 100%;
                     display: block;
@@ -77,12 +77,12 @@
 
             .arrow-top {
                 transform: rotate(-25deg);
-                top: 28px;
+                top: 50px;
             }
 
             .arrow-bottom {
                 transform: rotate(25deg);
-                top: 87px;
+                top: 91px;
             }
 
             &.open {

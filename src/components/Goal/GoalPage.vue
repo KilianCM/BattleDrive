@@ -53,7 +53,7 @@
                 height: 250px;
                 object-fit: cover;
                 box-shadow: $box-shadow;
-                border-radius: 5px;
+                border-radius: $image-border-radius;
                 margin: 20px 2px;
             }
         }

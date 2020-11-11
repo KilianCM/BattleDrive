@@ -1,6 +1,6 @@
 <template>
     <div class="home-page">
-        <img src="../../assets/main-background.jpg" alt="Clio Ragnotti N3">
+        <img src="../../assets/main-background.jpeg" alt="Clio Ragnotti N3 - Bauges 2020">
         <div class="partners-list">
             <partners-list></partners-list>
         </div>
@@ -29,24 +29,23 @@
         .partners-list {
             position: absolute;
             height: fit-content;
-            top: 0;
+            bottom: 0;
             right: 0;
         }
     }
 
     @media(max-width: 850px) {
-        .partners-list {
-            top:unset !important;
-            bottom: 0;
+        .home-page img {
+            width: 140%;
+            margin-left: -40%;
         }
     }
 
-</style>
-
-<style>
-    @media(max-width: 850px) {
-        .partners-list .partners h3{
-            color: white
+        @media(max-width: 550px) {
+        .home-page img {
+            width: 160%;
+            margin-left: -60%;
         }
     }
+
 </style>

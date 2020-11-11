@@ -7,8 +7,8 @@
                 </router-link>
             </li>
             <li>
-                <router-link @click.native="emitClick" :to="{ name: 'goal'}">
-                    Notre objectif
+                <router-link @click.native="emitClick" :to="{ name: 'program'}">
+                    Notre programme
                 </router-link>
             </li>
             <li>

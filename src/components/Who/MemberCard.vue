@@ -20,10 +20,8 @@
 <style scoped lang="scss">
 
     .member {
-        border-left: solid 2px $secondary-color;
-        border-top: solid 2px $secondary-color;
+        border-left: solid 5px $secondary-color;
         padding: 10px;
-        border-top-left-radius: 10px;
         width: 200px;
         margin-top: 20px;
         margin-right: 10px;

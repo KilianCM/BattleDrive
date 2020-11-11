@@ -30,7 +30,7 @@ export default {
   #app {
     display: flex;
     justify-content: stretch;
-    height: 100vh;
+    min-height: 100vh;
 
     .content-router {
       margin-left: $width-menu;
