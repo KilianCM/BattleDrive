@@ -87,6 +87,11 @@
 <style scoped lang="scss">
 
     .who {
+        .content {
+            p:first-child {
+                margin-top: 20px !important;
+            }
+        }
         span:not(.bold) {
             font-weight: bold;
             color: $primary-color;

@@ -80,11 +80,19 @@
         }
     }
 
-    @media(max-width: 400px) {
-        .side-bar .logo {
-            margin-left: 150px;
-            img {
-                width: 200px;
+    @media(max-width: $mobile-max-width) {
+        .side-bar {
+            &.closed {
+                .logo {
+                    margin-left: 300px;
+                    overflow: hidden;
+                }
+            }
+            .logo {
+                margin-left: 100px;
+                img {
+                    width: 200px;
+                }
             }
         }
     }

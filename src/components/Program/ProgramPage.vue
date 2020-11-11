@@ -2,11 +2,11 @@
     <div class="program page">
         <banner title="Programme 2021"></banner>
         <div class="content">
-            <h3>2 rallyes</h3>
+            <h3>2 rallyes régionaux Coupe de France</h3>
             <div class="rally-list">
                 <div>
                     <h4><a target="_blank" href="http://www.asac-savoie.fr">Rallye du Beaufortain</a></h4>
-                    <h5>1-2 mai 2021 | Beaufort (Savoie)</h5>
+                    <h5>1er mai 2021 | Beaufort (Savoie)</h5>
                     <p>Rallye à domicile pour Kilian qui procure donc un sentiment spécial de rouler sur des routes de son enfance.</p>
                 </div>
                 <div>
@@ -71,7 +71,7 @@
                 margin: 10px 0;
                 border-left: solid 5px $secondary-color;
                 padding: 10px;
-                width: 400px;
+                max-width: 400px;
             }
         }
 

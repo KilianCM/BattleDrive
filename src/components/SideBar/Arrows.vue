@@ -99,15 +99,21 @@
         }
     }
 
-    @media(max-width: 400px) {
+    @media(max-width: $mobile-max-width) {
         .arrows {
+            .menu-label {
+                margin-top: 10px;
+                margin-left: 13px;
+                font-size: 12px;
+            }
+
             .arrow {
                 div {
                     height: 35px;
                 }
 
                 .arrow-top {
-                    top: 44px;
+                    top: 46px;
                 }
 
                 .arrow-bottom {

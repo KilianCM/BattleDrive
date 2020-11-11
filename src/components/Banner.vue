@@ -76,4 +76,11 @@
             } 
         }
     }
+
+
+    @media(max-width: $mobile-max-width) {
+        h1 {
+            padding-top: 150px;
+        }
+    }
 </style>
