@@ -22,7 +22,7 @@ module.exports = {
           new PrerenderSPAPlugin({
             staticDir: path.join(__dirname, 'dist'),
             // Required - Routes to render.
-            routes: [ '/', '/qui-sommes-nous', '/nos-partenaires', '/notre-objectif' ],
+            routes: [ '/', '/qui-sommes-nous', '/nos-partenaires', '/notre-programme' ],
           }),
           new SitemapPlugin('https://www.battledrive.fr', routerPaths, {
             fileName: 'sitemap.xml',
