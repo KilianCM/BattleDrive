@@ -1,9 +1,9 @@
 <template>
     <div class="arrows" @click="onClick">
-        <a :class="{ 'arrow': true, 'open': open }" v-for="index in 3" :key="index">
+        <div :class="{ 'arrow': true, 'open': open }" v-for="index in 3" :key="index">
             <div class="arrow-top"></div>
             <div class="arrow-bottom"></div>
-        </a>
+        </div>
         <span :class="{ 'menu-label': true, 'transparent': open}">MENU</span>
     </div>
 </template>

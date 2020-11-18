@@ -1,5 +1,5 @@
 <template>
-    <div class="menu">
+    <nav class="menu">
         <ul>
             <li>
                 <router-link @click.native="emitClick" :to="{ name: 'us'}">
@@ -17,7 +17,7 @@
                 </router-link>
             </li>
         </ul>
-    </div>
+    </nav>
 </template>
 
 <script>

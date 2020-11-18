@@ -4,7 +4,7 @@
             <h4>{{rally.name}}</h4>
             <h5>{{rally.car.name}} - {{rally.result.scratch}}ème scratch | {{rally.result.class}}ème classe {{rally.car.class}}</h5>
             <p v-html="rally.description"></p>
-            <a target="_blank" :href="rally.ewrcLink"><img src="https://img.icons8.com/fluent-systems-filled/24/1D3B75/external-link.png"/> voir sur ewrc-result.com</a>
+            <a target="_blank" rel="noopener" :href="rally.ewrcLink"><img src="https://img.icons8.com/fluent-systems-filled/24/1D3B75/external-link.png"/> voir sur ewrc-result.com</a>
         </div>
         <div class="images">
             

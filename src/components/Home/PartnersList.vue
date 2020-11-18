@@ -1,8 +1,8 @@
 <template>
     <div class="partners">
         <div class="list">
-            <a href="https://www.domusgi.fr/" target="_blank"><img src="../../assets/Domus-logo.png" alt="Domus"></a>
-            <a href="https://www.pagesjaunes.fr/pros/56152266" target="_blank"><img src="../../assets/YannickTP-logo.png" alt="YannickTP"></a>
+            <a href="https://www.domusgi.fr/" target="_blank" rel="noopener"><img src="../../assets/Domus-logo.png" alt="Domus"></a>
+            <a href="https://www.pagesjaunes.fr/pros/56152266" target="_blank" rel="noopener"><img src="../../assets/YannickTP-logo.png" alt="YannickTP"></a>
         </div>
     </div>
 </template>

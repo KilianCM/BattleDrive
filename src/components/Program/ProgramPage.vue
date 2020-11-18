@@ -5,12 +5,12 @@
             <h3>2 rallyes régionaux Coupe de France</h3>
             <div class="rally-list">
                 <div>
-                    <h4><a target="_blank" href="http://www.asac-savoie.fr">Rallye du Beaufortain</a></h4>
+                    <h4><a target="_blank" rel="noopener" href="http://www.asac-savoie.fr">Rallye du Beaufortain</a></h4>
                     <h5>1er mai 2021 | Beaufort (Savoie)</h5>
                     <p>Rallye à domicile pour Kilian qui procure donc un sentiment spécial de rouler sur des routes de son enfance.</p>
                 </div>
                 <div>
-                    <h4><a target="_blank" href="https://www.sportautobauges.com">Rallye des Bauges</a></h4>
+                    <h4><a target="_blank" rel="noopener" href="https://www.sportautobauges.com">Rallye des Bauges</a></h4>
                     <h5>9-10 octobre 2021 | Aillon-le-Jeune (Savoie)</h5>
                     <p>Cette fois, c'est le rallye à domicile pour Benjamin, pas de jaloux !</p>
                 </div>
