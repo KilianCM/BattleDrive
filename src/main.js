@@ -14,7 +14,8 @@ const routes = [
     { path: '/', component: HomePage, name: 'home' },
     { path: '/qui-sommes-nous', component: WhoPage, name: 'us' },
     { path: '/notre-programme', component: ProgramPage, name: 'program' },
-    { path: '/nos-partenaires', component: PartnersPage, name: 'partners' }];
+    { path: '/nos-partenaires', component: PartnersPage, name: 'partners' }
+  ];
 
 const router = new VueRouter({
   mode: 'history',

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" data-server-rendered="true">
     <side-bar v-on:toggle-menu="menuOpened = $event"></side-bar>
     <div :class="{ 'content-router': true, 'reduced': !menuOpened }">
       <transition name="fade" mode="out-in">

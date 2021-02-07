@@ -18,7 +18,7 @@
             </div>
             <h3>Nous contacter</h3>
             <p><span>@</span> <a href="mailto:contact@battledrive.fr">contact@battledrive.fr</a></p>
-            <p><span><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></span> <a rel="noopener" href="https://www.facebook.com/battledrivecompetition" target="_blank">Page Facebook Battle Drive Compétition</a></p>
+            <p><span><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></span> <a rel="noopener" href="https://www.facebook.com/battledrivecompetition" target="_blank">Page Facebook BattleDrive Compétition</a></p>
             <p :style="{ marginTop: '10px'}">607 route de la forêt 73270 Villard sur Doron</p>
             <h3>Infos légales</h3>
             <p>Association déclarée à la sous-préfécture d'Albertville le 10 décembre 2019

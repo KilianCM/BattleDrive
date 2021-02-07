@@ -17,7 +17,6 @@
             </div>
             <p>L'objectif de ces rallyes sera de continuer d'<span class="bold">apprendre</span>, de <span class="bold">se faire plaisir</span>
                 et bien sûr de <span class="bold">viser le meilleur classement</span> possible.</p>
-            <p class="small">Et il se peut même qu'on inverse de baquets pour les Bauges 🤫</p>
 
             <h3>La voiture</h3>
             <p>Après une première expérience parfaite, nous renouvelons notre confiance à <a target="_blank" href="https://www.r2slocation.fr/location/">
