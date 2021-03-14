@@ -37,12 +37,6 @@
                         name: "Domus GI",
                         image: "Domus-logo.png",
                         link: "https://www.domusgi.fr/"
-                    },
-                    {
-                        id: 2,
-                        name: "Yannick TP",
-                        image: "YannickTP-logo.png",
-                        link: "https://www.pagesjaunes.fr/pros/56152266"
                     }
                 ]
             }
