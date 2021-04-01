@@ -4,7 +4,7 @@
         <div class="content">
             <h3>2 rallyes régionaux Coupe de France</h3>
             <div class="rally-list">
-                <div>
+                <div class="cancelled">
                     <h4><a target="_blank" rel="noopener" href="http://www.asac-savoie.fr">Rallye du Beaufortain</a></h4>
                     <h5>1er mai 2021 | Beaufort (Savoie)</h5>
                     <p>Rallye à domicile pour Kilian qui procure donc un sentiment spécial de rouler sur des routes de son enfance.</p>
@@ -15,6 +15,7 @@
                     <p>Cette fois, c'est le rallye à domicile pour Benjamin, pas de jaloux !</p>
                 </div>
             </div>
+            <p>Le Beaufortain sera remplacé par un autre rallye dans la région, en fonction de la situation liée à la crise sanitaire. Les rallyes du <span class="bold">Trièves</span> (fin juillet) ou de <span class="bold">Chartreuse</span> (fin août) sont les potentiels remplaçants.</p>
             <p>L'objectif de ces rallyes sera de continuer d'<span class="bold">apprendre</span>, de <span class="bold">se faire plaisir</span>
                 et bien sûr de <span class="bold">viser le meilleur classement</span> possible.</p>
 
@@ -27,19 +28,19 @@
                 <img src="../../assets/n3_2.jpg" alt="Clio Ragnotti N3">
                 <img src="../../assets/n3_3.jpg" alt="Clio Ragnotti N3">
             </div>
-            <h3>Temps restant avant la reprise 🤞</h3>
-            <Countdown deadline="May 1, 2021"></Countdown>
+            <!--<h3>Temps restant avant la reprise 🤞</h3>
+            <Countdown deadline="May 1, 2021"></Countdown>-->
         </div>
     </div>
 </template>
 
 <script>
     import Banner from "../Banner";
-    import Countdown from 'vuejs-countdown';
+    //import Countdown from 'vuejs-countdown';
 
     export default {
         name: "GoalPage",
-        components: {Banner, Countdown}
+        components: {Banner/*, Countdown*/}
     }
 </script>
 
@@ -71,6 +72,20 @@
                 border-left: solid 5px $secondary-color;
                 padding: 10px;
                 max-width: 400px;
+                &.cancelled {
+                    &::before {
+                        content: 'Annulé 😔';
+                        width: 380px;
+                        height: 30px;
+                        background-color: rgba($color: #FF0101, $alpha: .9);
+                        color: white;
+                        position: absolute;
+                        transform: rotate(-13deg);
+                        text-align: center;
+                        margin-top: 35px;
+                        margin-left: -10px;
+                    }
+                }
             }
         }
 
