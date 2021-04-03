@@ -3,7 +3,7 @@
         <banner title="Qui sommes-nous ?"></banner>
         <div class="content">
             <p><span class="bold">BattleDrive Competition</span> est une association créée en 2019 dans le but de pouvoir participer à des rallyes.<br>
-            Composée de 4 personnes, l'association nous a permis de réaliser notre rêve. Nous avons participé à notre premier rallye en 2019, et on ne compte pas s'arrêter là !</p>
+            Composée de 4 personnes, l'association nous a permis de réaliser notre rêve. Nous avons participé à notre premier rallye en 2020, et on ne compte pas s'arrêter là !</p>
             <h3>L'équipe</h3>
             <div class="members-list">
                 <member-card v-for="member in members" :key="member.id" :member="member"></member-card>
