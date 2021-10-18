@@ -12,7 +12,7 @@
             <div class="partners-list">
                 <partner-link v-for="partner in partners" :partner="partner" :key="partner.id"></partner-link>
             </div>
-            <h3>Vous voulez rejoindre cette liste en nous aidant ?</h3>
+            <h3>Quels avantages en nous aidant ?</h3>
             <p>En plus d'une visibilité publicitaire via des autocollants sur notre voiture, vous bénéficierez d'un
                 avantage fiscal par application de l’article 238 bis du code général des impôts. En effet, les sociétés sont autorisées à
                 <span class="bold">déduire des versements au titre de sponsoring du montant de leur bénéfice imposable</span>.</p>
@@ -32,12 +32,12 @@
         data() {
             return {
                 partners: [
-                    {
+                    /*{
                         id: 1,
                         name: "Domus GI",
                         image: "Domus-logo.png",
                         link: "https://www.domusgi.fr/"
-                    }
+                    }*/
                 ]
             }
         }

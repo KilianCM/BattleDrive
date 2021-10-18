@@ -1,46 +1,44 @@
 <template>
     <div class="program page">
-        <banner title="Programme 2021"></banner>
+        <banner title="Programme 2022"></banner>
         <div class="content">
             <h3>2 rallyes régionaux Coupe de France</h3>
             <div class="rally-list">
-                <div class="cancelled">
+                <div class="">
                     <h4><a target="_blank" rel="noopener" href="http://www.asac-savoie.fr">Rallye du Beaufortain</a></h4>
-                    <h5>1er mai 2021 | Beaufort (Savoie)</h5>
+                    <h5>7 mai 2022 | Beaufort (Savoie)</h5>
                     <p>Rallye à domicile pour Kilian qui procure donc un sentiment spécial de rouler sur des routes de son enfance.</p>
                 </div>
                 <div>
                     <h4><a target="_blank" rel="noopener" href="https://www.sportautobauges.com">Rallye des Bauges</a></h4>
-                    <h5>9-10 octobre 2021 | Aillon-le-Jeune (Savoie)</h5>
-                    <p>Cette fois, c'est le rallye à domicile pour Benjamin, pas de jaloux !</p>
+                    <h5>8-9 octobre 2022 | Aillon-le-Jeune (Savoie)</h5>
+                    <p>Un rallye où l'équipe était présente lors des 2 dernières éditions avec une belle progression. Ce qui laisse penser à une belle course en 2022 !</p>
                 </div>
             </div>
-            <p>Le Beaufortain sera remplacé par un autre rallye dans la région, en fonction de la situation liée à la crise sanitaire. Les rallyes du <span class="bold">Trièves</span> (fin juillet) ou de <span class="bold">Chartreuse</span> (fin août) sont les potentiels remplaçants.</p>
-            <p>L'objectif de ces rallyes sera de continuer d'<span class="bold">apprendre</span>, de <span class="bold">se faire plaisir</span>
-                et bien sûr de <span class="bold">viser le meilleur classement</span> possible.</p>
 
             <h3>La voiture</h3>
-            <p>Après une première expérience parfaite, nous renouvelons notre confiance à <a target="_blank" href="https://www.r2slocation.fr/location/">
+            <p>Après 2 expériences parfaites, nous renouvelons notre confiance à <a target="_blank" href="https://www.r2slocation.fr/location/">
                 R2S Location</a> pour louer une de leur magnifique Clio Ragnotti N3. Avec ses 193cv pour 1020kg, c'est une voiture parfaite pour apprendre et progresser. Facile à prendre en main, elle met en confiance rapidement
-                tout en restant très loin des limites de la voiture.</p>
+                tout en restant très loin des limites de la voiture. Après s'être rapproché des premiers de classe au rallye des Bauges 2021, notre but sera d'apprendre à exploiter encore plus
+                l'auto et réduire encore ce gap qui nous sépare du podium !</p>
             <div class="images">
                 <img src="../../assets/n3.jpg" alt="Clio Ragnotti N3">
                 <img src="../../assets/n3_2.jpg" alt="Clio Ragnotti N3">
                 <img src="../../assets/n3_3.jpg" alt="Clio Ragnotti N3">
             </div>
-            <!--<h3>Temps restant avant la reprise 🤞</h3>
-            <Countdown deadline="May 1, 2021"></Countdown>-->
+            <h3>Temps restant avant la reprise 🤞</h3>
+            <Countdown deadline="May 7, 2022"></Countdown>
         </div>
     </div>
 </template>
 
 <script>
     import Banner from "../Banner";
-    //import Countdown from 'vuejs-countdown';
+    import Countdown from 'vuejs-countdown';
 
     export default {
         name: "GoalPage",
-        components: {Banner/*, Countdown*/}
+        components: {Banner, Countdown}
     }
 </script>
 

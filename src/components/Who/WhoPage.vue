@@ -11,10 +11,12 @@
             <div class="image-wrapper">
                 <img src="../../assets/team.jpg">
                 <img src="../../assets/bauges2020-1.jpeg">
+                <img src="../../assets/bauges2021-1.jpg">
+                <img src="../../assets/bauges2021-2.jpeg">
             </div>
             <h3>Historique</h3>
             <div class="rally-list">
-                <rally-item v-for="rally in rallies" :key="rally.id" :rally="rally"></rally-item>
+                <rally-item v-for="rally in rallies.slice().reverse()" :key="rally.id" :rally="rally"></rally-item>
             </div>
             <h3>Nous contacter</h3>
             <p><span>@</span> <a href="mailto:contact@battledrive.fr">contact@battledrive.fr</a></p>
@@ -78,6 +80,22 @@
                             "scratch": 86,
                             "class": 10
                         }
+                    },
+                    {
+                        id: 2,
+                        name: "Rallye des Bauges 2021",
+                        "ewrcLink": "https://www.ewrc-results.com/entryinfo/65028-rallye-regional-des-bauges-2021/3149207/",
+                        "description": "Un très beau week-end avec Geoffrey Bidois dans le baquet de droite, les temps de 2020 sont largement améliorés avec"
+                        + " en prime une belle bagarre le dimanche pour la 4ème place. La voiture a été parfaite et l'écart avec les premiers s'est réduit comme"
+                        + " on en avait l'objectif avant le rallye.",
+                        "car": {
+                            "name": "Renault Clio Ragnotti",
+                            "class": "N3"
+                        },
+                        "result": {
+                            "scratch": 66,
+                            "class": 6
+                        }
                     }
                 ]
             }
@@ -112,11 +130,13 @@
         .image-wrapper {
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap;
             margin: 40px 0 20px 0;
             img {
                 box-shadow: $box-shadow;
                 border-radius: $image-border-radius;
                 width: 350px;
+                margin: 10px;
                 max-height: 280px;
                 object-fit: cover;
             }

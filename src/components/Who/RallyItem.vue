@@ -29,6 +29,7 @@
     .rally {
         border-left: solid 5px $secondary-color;
         padding-left: 10px;
+        margin-top: 10px;
         .info {
 
             a {
